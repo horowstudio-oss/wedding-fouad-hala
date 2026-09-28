@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fouad & Hala — Wedding Invitation</title>
+<meta name="theme-color" content="#4a211c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Marhey:wght@300;400;500&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="music" loop preload="auto"><source src="assets/wedding-zaffa.mp3" type="audio/mpeg"></audio>
+<button class="music" id="musicBtn" aria-label="تشغيل الموسيقى">♪</button>
+<div class="petals" aria-hidden="true"></div>
+<main>
+<section class="hero panel dark reveal">
+  <div class="corner-flower f1">✿</div><div class="corner-flower f2">❀</div>
+  <div class="eyebrow">A MOMENT<br>FOR A LIFETIME</div>
+  <div class="names"><span id="groomHero">Fouad</span><i>&</i><span id="brideHero">Hala</span></div>
+  <div class="envelope"><div class="env-back"></div><div class="letter"><span>F ♡ H</span></div><div class="env-front"></div><div class="seal">❦</div></div>
+  <div class="private">دعوة خاصة<br><small>لحضور أجمل أيامنا</small></div>
+  <a class="scroll" href="#invite">⌄<span>SCROLL</span></a>
+</section>
+
+<section id="invite" class="panel paper reveal">
+ <div class="vine top">❀ ❦ ✿</div><div class="frame">
+  <div class="basmala">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
+  <p class="lead">بحضوركم تكتمل فرحتنا<br>يسرّنا دعوتكم لحضور حفل زفافنا<br>ونتشرف بوجودكم بيننا</p>
+  <div class="divider">✦</div>
+  <div class="names small"><span id="groomInvite">Fouad</span><i>&</i><span id="brideInvite">Hala</span></div>
+  <div class="date" id="dateText">20 · 07 · 2027</div><div class="place">دمشق · سوريا</div>
+  <div class="divider">✦</div><p>وجودكم في هذا اليوم<br>هو أجمل هدية لنا</p>
+ </div><div class="vine bottom">❦ ✿ ❀</div>
+</section>
+
+<section class="panel countdown reveal">
+ <div class="rings">◌ ◉</div><h2>العد التنازلي للفرح</h2>
+ <div class="timer"><div><b id="days">000</b><span>يوم</span></div><div><b id="hours">00</b><span>ساعة</span></div><div><b id="minutes">00</b><span>دقيقة</span></div><div><b id="seconds">00</b><span>ثانية</span></div></div>
+ <div class="divider">✦</div><p>كل لحظة تقرّبنا من لقائكم</p>
+</section>
+
+<section class="panel paper reveal">
+ <div class="frame"><h2>برنامج الحفل</h2><div class="timeline" id="timeline"></div></div>
+</section>
+
+<section class="panel venue reveal">
+ <div class="arch"><div class="lantern">✦</div><div class="venue-card"><div class="venue-icon">♜</div><h2>مكان الحفل</h2><h3 id="venueName">Beldi Country Club</h3><p id="venueCity">دمشق، سوريا</p></div></div>
+ <div class="venue-copy">في أجواء شامية أصيلة تجمع بين الفخامة والطبيعة، نلتقي لنحتفل بأجمل لحظات حياتنا</div>
+ <a class="btn" id="mapBtn" href="#" target="_blank" rel="noopener">⌖ فتح الموقع على الخريطة</a>
+</section>
+
+<section class="panel details reveal"><div class="frame"><div class="dress">♕</div><h2>إطلالة الحفل</h2><p>نود أن تكونوا معنا بإطلالة أنيقة تتناسب مع أجواء الحفل</p><span class="pill">✿ Elegant Evening</span><div class="divider">✦</div><h2>تفاصيل مميزة</h2><div class="features"><div>🎁<span>هدايا تذكارية<br>لضيوفنا</span></div><div>📷<span>لحظات مميزة<br>بالتصوير</span></div><div>🍰<span>تشكيلة حلويات<br>مختارة</span></div></div></div></section>
+
+<section class="panel note reveal"><div class="frame"><div class="mail">✉</div><h2>ملاحظة</h2><p>وجودكم معنا هو أجمل هدية<br>لذا نعتذر عن إحضار الهدايا</p><div class="divider">✦</div></div></section>
+
+<section class="panel finale dark reveal"><div class="stars"></div><div class="names"><span id="groomFinal">Fouad</span><i>&</i><span id="brideFinal">Hala</span></div><div class="date" id="finalDate">20 · 07 · 2027</div><div>دمشق · سوريا</div><p class="thanks">شكراً لكونكم جزءاً من حكايتنا</p><button class="btn light" id="replay">↟ العودة للبداية</button></section>
+</main>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>
